@@ -2,7 +2,7 @@
 
 namespace BrushUpLibrary
 {
-    public class Student : Person2
+    public class Student : Person
     {
         private int _semester;
 

@@ -1,15 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Text;
 
 namespace BrushUpLibrary
 {
-    public class Teacher:Person2
+    public class Teacher : Person
     {
-        
+
         private int _salary;
-        
+
         public int Salary
         {
             get => _salary;
